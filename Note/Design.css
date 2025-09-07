@@ -1,0 +1,17 @@
+h1, h2{
+ text-align: center;
+}
+
+button {
+justify-content: center;
+font-size: 18px;
+margin-left: auto;
+margin-right: auto;
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}

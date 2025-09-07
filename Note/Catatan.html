@@ -1,0 +1,26 @@
+<html>
+  <head>
+   <title>Message</title>
+   <link rel="stylesheet" href="Design.css">
+  </head>
+  <body>
+    <h1>Hai Sellmaa</h1>
+    <img src="https://i.pinimg.com/736x/37/20/92/372092ea236ce7e53db49420ed2d151f.jpg"/>
+    <h2>Baca Note ku</h2>
+    <div>
+    <a href="https://hgi5ge.mimo.run/index.html"> 
+        <button id="btn_mau" class="centered-button">Mau</button>
+    </a>
+    <button class="centered-button" id="btn_gamau" onclick="gamau(this)" style="position: absolute">Ga mau</button>
+    </div>
+  </body>
+    <script>
+    function gamau(id) {
+      var mau = document.getElementById("btn_mau");
+      var i = Math.floor(Math.random() * 300) + 1;
+      var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+      id.style.left = i + "px";
+      id.style.top = j + "px";
+    }
+  </script>
+</html>
